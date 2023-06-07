@@ -115,7 +115,7 @@ lupaPantallaMayor.addEventListener("click", ()=>{
   if(barraBusqueda.value.length<1 ){
     return false;
   }else{
-    window.location.href = `./screens/resultadouser.html?search=${search}`;
+    window.location.href = `./docs/resultadouser.html?search=${search}`;
   }
   
  })
