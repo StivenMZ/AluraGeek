@@ -1,0 +1,27 @@
+.contacto__informacion__form{
+    width: 89.13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0 1.11rem;
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+@media screen and (min-width:768px){
+    .contacto__informacion__form{
+        margin-top: 2rem;
+        width: 57.715%;
+        padding: 0;
+        gap: 0;
+    }
+}
+
+@media screen and (min-width:768px){
+    .contacto__informacion__form{   
+     width: 52.715%;
+    }
+}

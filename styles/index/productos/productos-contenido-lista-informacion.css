@@ -1,0 +1,23 @@
+.productos__contenido__lista__informacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen and (min-width:768px){
+    .productos__contenido__lista__informacion{
+    gap: 0.25rem;
+    
+    }
+    
+} 
+
+
+@media screen and (min-width:1280px){
+    .productos__contenido__lista__informacion{
+   width: 100%;
+    
+    }
+    
+} 

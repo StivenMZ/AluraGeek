@@ -1,0 +1,18 @@
+.destacado{
+    margin-bottom: 2.1rem;
+    width: 100%;
+    height: 40.508vh;
+}
+
+@media screen and (min-width:768px){
+    .destacado{
+        height: 59.865vh;
+    }
+    
+} 
+
+@media screen and (min-width:1280px){
+    .destacado{
+    height: 66.865vh;
+}
+}

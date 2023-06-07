@@ -1,0 +1,7 @@
+.productos__contenido{
+    margin-top: 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}

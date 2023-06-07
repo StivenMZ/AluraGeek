@@ -1,0 +1,64 @@
+.productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__eliminar{
+    position: relative;
+    top: -10.5rem;
+    left: 5.9375rem;
+    display: inline-flex;
+    width: 1.1rem;
+    height: 1.5rem;
+
+}
+
+.productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__editar{
+    position: relative;
+    display: inline-flex;
+    top: -10.6rem;
+    left: 6.59rem;
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+.productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__eliminar:hover{
+    cursor: pointer;
+}
+
+.productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__editar:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    .productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__eliminar{
+    width: 0.75rem;
+    height: 0.75rem;
+    top: -5rem;
+    left: 3.1rem;
+    }
+    
+    .productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__editar{
+        width: 0.75rem;
+        height: 0.75rem;
+        top: -5rem;
+    left: 3.1rem;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1280px){
+    .productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__eliminar{
+    width: 0.4rem;
+    height: 0.4rem;
+    top: -3rem;
+    left: 2.1rem;
+
+    }
+    
+    .productos__contenido__lista__informacion__div > .productos__contenido__lista__informacion__div__editar{
+        width: 0.4rem;
+        height: 0.4rem;
+        top: -3rem;
+        left: 2.1rem;
+    }
+
+}

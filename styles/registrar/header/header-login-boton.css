@@ -1,0 +1,101 @@
+
+
+.header__navegacion__busqueda__input{
+    display: none;
+}
+
+
+.header__login_button{
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0.75rem 1rem;
+gap: 0.625rem;
+
+width: 100%;
+height: 2.5rem;
+
+/* Azul/100% */
+
+border: 0.0625rem solid #2A7AE4;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.header__login_button>p{
+    width: 100%;
+height: 1rem;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 0.875rem;
+line-height: 1rem;
+
+/* Azul/100% */
+
+color: #2A7AE4;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.header__login_button:hover{
+background: #bcc9d6;
+cursor: pointer;
+}
+
+.header__login_button:active{
+    background: #dce7f1;
+}
+
+@media screen and (min-width:768px){
+
+    .header__login_button{
+    
+      height: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 0.55rem;
+      position: relative;
+        bottom: 0.2rem;
+        width: 125%;
+    }
+
+    .header__login_button>p{
+        font-size: 0.4375rem;
+    line-height: 0.5rem;
+    }
+    
+} 
+
+
+@media screen and (min-width:1280px){
+    .header__login_button{
+    width: 163%;
+    padding: 0.5rem;
+    margin-left: -1rem;
+      }
+
+    .header__login_button>p{
+        font-size: 0.4rem;
+        line-height: 0.31rem;
+        height: initial;
+    }
+
+
+    
+} 

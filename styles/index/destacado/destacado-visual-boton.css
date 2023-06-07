@@ -1,0 +1,77 @@
+.destacado__visual__boton{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    gap: 0.625rem;
+    border: none;
+    width: 32.1%;
+    height: 19.1%;
+    
+    /* Azul/100% */
+    
+    background: #2A7AE4;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+/*TEXTO*/
+.destacado__visual__boton{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 0.875rem;
+line-height: 1rem;
+
+/* Preto/branco */
+
+color: #FFFFFF;
+
+}
+
+.destacado__visual__boton:hover{
+    background:#5e98e4;
+    cursor: pointer;
+    }
+    
+    .destacado__visual__boton:active{
+        background:#74aefa;
+    }
+    
+
+@media screen and (min-width:768px){
+    .destacado__visual__boton{
+
+        padding: 0.33rem 0.5rem;
+        gap: 0.3125rem;
+
+        width: 16.1%;
+        height: 1.25rem;
+
+    
+        font-size: 0.4375rem;
+        line-height: 0.5rem;
+
+        }           
+} 
+
+
+@media screen and (min-width:1280px){
+    .destacado__visual__boton{
+    width: 14%;
+    height: 1.1rem;
+
+    font-size: 0.3rem;
+    line-height: 0.31rem;
+    margin-left: 4rem;
+
+}
+
+}

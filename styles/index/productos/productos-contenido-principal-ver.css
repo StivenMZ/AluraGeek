@@ -1,0 +1,52 @@
+.productos__principal__ver{
+margin-right: 4.1%;
+width: 20%;
+height: 16px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 1rem;
+
+/* Azul/100% */
+
+color: #2A7AE4;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.productos__principal__ver:hover{
+color:#0c3b79;
+cursor: pointer;
+}
+
+.productos__principal__ver:active{
+    color: #acc9f0;
+    }
+
+@media screen and (min-width:768px){
+    .productos__principal__ver{
+    width: 12.2%;
+    height: 0.59375rem;
+    font-size: 0.5rem;
+    line-height: 0.59375rem;
+    margin-right: 0;
+    }
+    
+} 
+
+
+@media screen and (min-width:768px){
+    .productos__principal__ver{
+
+            font-size: 0.4rem;
+        line-height: 0.4rem;
+        }
+    
+} 

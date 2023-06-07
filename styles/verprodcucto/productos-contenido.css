@@ -1,0 +1,17 @@
+ section.productos  .productos__contenido__principal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-bottom: 1rem;
+        gap: 1rem;
+    }
+
+    
+@media screen and (min-width:768px){
+    section.productos  .productos__contenido__principal {
+        flex-direction: row;
+    }
+
+}

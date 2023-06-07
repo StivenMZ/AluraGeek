@@ -1,0 +1,54 @@
+.productos__contenido__lista__informacion__boton{
+width: 56,77%;
+height: 1rem;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 1rem;
+
+/* Azul/100% */
+
+color: #2A7AE4;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.productos__contenido__lista__informacion__boton:hover{
+color: #0c3b79;
+cursor: pointer;
+        }
+.productos__contenido__lista__informacion__boton:active{
+color: #acc9f0;
+}
+
+
+@media screen and (min-width:768px){
+    
+    .productos__contenido__lista__informacion__boton{
+    
+height: 0.59375rem;
+font-size: 0.5rem;
+line-height: 0.59375rem;
+    }
+    
+} 
+
+@media screen and (min-width: 1280px){
+    
+    .productos__contenido__lista__informacion__boton{
+    
+height: 0.6rem;
+font-size: 0.3rem;
+line-height: 0.31rem;
+    }
+    
+} 
+
+

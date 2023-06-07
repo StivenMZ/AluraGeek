@@ -1,0 +1,17 @@
+.header__navegacion__busqueda__input{
+    display: none;
+}
+
+@media screen and (min-width:768px){
+
+    .header__navegacion__busqueda__input{
+        display: flex;
+        border: none;
+        width: 8.1607rem;
+        
+    }
+    
+} 
+
+
+

@@ -1,0 +1,44 @@
+.productos__contenido__principal__titulo{
+    width: 100%;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    /* identical to box height */
+    
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    display: flex;
+    justify-content: flex-start;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .productos__contenido__principal__titulo{
+        font-size: 0.6875rem;
+    line-height: 0.8125rem;
+    width: 35%;
+    }
+
+}
+
+
+@media screen and (min-width: 1280px){
+
+    .productos__contenido__principal__titulo{
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+        width: 35%;
+    }
+
+}

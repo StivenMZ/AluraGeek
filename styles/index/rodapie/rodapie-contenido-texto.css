@@ -1,0 +1,36 @@
+.rodapie__contenido__texto{
+    width: 70.23%;
+height: 2.375rem;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.1875rem;
+text-align: center;
+
+/* Preto/100% */
+
+color: #464646;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+@media screen and (min-width:768px){
+.rodapie__contenido__texto{
+    font-size: 0.5rem;
+    line-height: 0.59375rem;
+    width: 40%;
+}
+}
+
+@media screen and (min-width:768px){
+    .rodapie__contenido__texto{
+        font-size: 0.3rem;
+        width: 23%;
+    }
+    }

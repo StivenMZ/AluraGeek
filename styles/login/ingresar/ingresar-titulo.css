@@ -1,0 +1,39 @@
+.ingresar__titulo{
+width: 28.53%;
+height: 1.1875rem;
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+line-height: 1.1875rem;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+color: #464646;
+
+}
+
+@media screen and (min-width: 768px){
+    .ingresar__titulo{
+        font-size: 0.6rem;
+line-height: 0.59375rem;
+justify-content: center;
+    display: flex;
+    }
+
+
+}
+
+@media screen and (min-width: 768px){
+    .ingresar__titulo{
+        font-size: 0.3rem;
+line-height: 0.31rem;
+
+    }
+
+
+}

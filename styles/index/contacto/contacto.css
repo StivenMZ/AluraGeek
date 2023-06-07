@@ -1,0 +1,36 @@
+section.contacto{
+    width: 100%;
+    background: #EAF2FD;
+}
+
+.contacto__informacion__div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 0.1rem;
+    
+}
+@media screen and (min-width:768px){
+.contacto__informacion__div{
+    align-items: flex-start;
+    margin-top: 1.5rem;
+
+
+}
+
+section.contacto{
+height: 14rem;
+}
+}
+
+@media screen and (min-width:1280px){
+    .contacto__informacion__div{
+       flex-direction: row;
+    margin-left: 2rem;
+    }
+
+    section.contacto{
+        height: 9rem;
+        }
+}

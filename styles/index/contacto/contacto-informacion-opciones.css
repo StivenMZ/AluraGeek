@@ -1,0 +1,16 @@
+.contacto__informacion__opciones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    .contacto__informacion__opciones{
+       
+        width: 100%;
+        align-self: flex-start;
+      
+    }
+
+}

@@ -1,0 +1,21 @@
+.header__navegacion__busqueda{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    order: 1;
+    
+}
+
+@media screen and (min-width: 768px){
+    .header__navegacion__busqueda{
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (min-width:1280px){
+    .header__navegacion__busqueda{
+    width: 65%;
+}
+    
+} 

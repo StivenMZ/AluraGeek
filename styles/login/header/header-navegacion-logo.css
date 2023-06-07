@@ -1,0 +1,23 @@
+.header__navegacion__busqueda__logo{
+    width: 27.17vw; 
+    height: 7.61vw;
+    order: 0;
+}
+
+@media screen and (min-width: 768px){
+    .header__navegacion__busqueda__logo{
+    width: 13.17vw;
+    height: 3.7vw;
+}
+}
+
+@media screen and (min-width:1280px){
+    .header__navegacion__busqueda__logo{
+        width: 27%;
+        height: 0.81rem;
+    
+    }
+    
+    
+    
+    } 

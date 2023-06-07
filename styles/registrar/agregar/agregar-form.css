@@ -1,0 +1,25 @@
+.agregar__form{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1rem;
+
+width: 97.6%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+@media screen and (min-width:768px){
+    .agregar__form{
+        gap: 0;
+    }
+
+
+}

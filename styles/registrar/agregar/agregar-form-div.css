@@ -1,0 +1,43 @@
+.agregar__form__div{
+  
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 3rem;
+    
+        /* Preto/branco */
+    
+        background: #FFFFFF;
+        border-radius: 0.25rem;
+        border-color:  #C8C8C8;;
+        border-bottom: 0.19rem ridge;
+        /* Inside auto layout */    
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-bottom: 1rem;
+    
+}
+
+@media screen and (min-width:768px){
+        .agregar__form__div{
+            margin-bottom: 0;
+            border-bottom: initial;
+        }
+    
+    
+    }
+
+    @media screen and (min-width:1280px){
+        .agregar__form__div{
+            width: 44%;
+            align-self: center;
+        }
+    
+    
+    }
+
+

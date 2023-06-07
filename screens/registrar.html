@@ -1,0 +1,136 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar producto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" />
+
+
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../styles/registrar/registrar.css">
+
+
+    <!--HEADER-->
+    <link rel="stylesheet" href="../styles/login/header/header.css">
+    <link rel="stylesheet" href="../styles/login/header/header-navegacion.css">
+    <link rel="stylesheet" href="../styles/login/header/header-navegacion-busqueda.css">
+    <link rel="stylesheet" href="../styles/login/header/header-navegacion-lupa.css">
+    <link rel="stylesheet" href="../styles/login/header/header-navegacion-logo.css">
+    <link rel="stylesheet" href="../styles/registrar/header/header-login.css">
+    <link rel="stylesheet" href="../styles/registrar/header/header-login-boton.css">
+    <link rel="stylesheet" href="../styles/productos/lista/productos-busqueda.css">
+
+
+    <!--Agregar-->
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-titulo.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form-div.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form-div-texto.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form-div-input.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form-boton.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form-div-boton.css">
+    <link rel="stylesheet" href="../styles/registrar/agregar/agregar-form-div-error.css">
+
+
+    <!--Contacto-->
+    <link rel="stylesheet" href="../styles/index/contacto/contacto.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-opciones.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-opciones-lista.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-logo.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-titulo.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario-mensaje.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario-boton.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario-div.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario-div-nombre.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario-errornombre.css">
+    <link rel="stylesheet" href="../styles/index/contacto/contacto-informacion-form-formulario-errormensaje.css">
+    <!--Rodapie-->
+    <link rel="stylesheet" href="../styles/index/rodapie/rodapie.css">
+    <link rel="stylesheet" href="../styles/index/rodapie/rodapie-contenido.css">
+    <link rel="stylesheet" href="../styles/index/rodapie/rodapie-contenido-texto.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <header>
+            <nav>
+                <div class="header__navegacion">
+                    <div class="header__navegacion__busqueda">
+                        <img src="../../assets/LogoHeader.png" alt="Logo" class="header__navegacion__busqueda__logo">
+                        <input type="text" name="" id="" class="header__navegacion__busqueda__input" placeholder="¿Qué deseas buscar?">
+                        <img src="../../assets/Lupa.png" alt="" class="header__navegacion__busqueda_lupa">
+                    </div>
+                    <div class="header__login" data-nav="boton-menu">
+                        <a href="#"><button class="header__login_button">
+                                <p>Menu Administrador</p>
+                            </button></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section class="agregar">
+        <h3 class="agregar__titulo">Agregar Nuevo Producto</h3>
+        <form action="" class="agregar__form" data-form="form">
+            <div class="agregar__form__div">
+                <p class="agregar__form__div__texto">Url de la imagen</p>
+                <input type="text" class="agregar__form__input" data-form="imagen-input" readonly>
+                <label class="agregar__form__div__boton" for="imagen-input-file" data-form="imagen-boton">
+                  <img src="../assets/adjuntar.png" alt="icono-adjuntar">
+                </label>
+              </div>
+              <span class="agregar__form__div__error"  data-form="imagen-error"></span>
+            
+            <div class="agregar__form__div">
+                <p class="agregar__form__div__texto" >Categoría</p>
+                <input type="text" class="agregar__form__input" data-form="categoria">
+            </div>
+            <span class="agregar__form__div__error" data-form="categoria-error"></span>
+
+            <div class="agregar__form__div">
+                <p class="agregar__form__div__texto">Nombre del producto</p>
+                <input type="text" class="agregar__form__input" data-form="nombre">
+            </div>
+            <span class="agregar__form__div__error" data-form="nombre-error"></span>
+
+            <div class="agregar__form__div">
+                <p class="agregar__form__div__texto">Precio del producto</p>
+                <input type="text" class="agregar__form__input" data-form="precio">
+            </div>
+            <span class="agregar__form__div__error" data-form="precio-error"></span>
+
+            <div class="agregar__form__div">
+                <p class="agregar__form__div__texto">Descripcion del producto</p>
+                <input type="text" class="agregar__form__input" data-form="descripcion">
+            </div>
+            <span class="agregar__form__div__error" data-form="descripcion-error"></span>
+
+            <button class="agregar__form__boton" type="submit">
+                <p>Agregar Producto</p>
+            </button>
+        </form>
+
+    </section>
+
+    <section class="contacto">
+       
+    </section>
+
+    <section class="rodapie">
+
+        <p class="rodapie__contenido__texto">Desarrollado por Stiven Vera Cano 2023</p>
+
+    </section>
+    <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+    <script src="../js/registrar.js" type="module"></script>
+</body>
+
+</html>

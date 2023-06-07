@@ -1,0 +1,44 @@
+.agregar__form__div > p {
+    width: 100%;
+    height: 1rem;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    /* identical to box height, or 133% */
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    display: flex;
+    align-items: center;
+    
+    /* Preto/50% */
+    
+    color: #A2A2A2;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+    
+    @media screen and (min-width:768px){
+    .agregar__form__div > p {
+
+        font-size: 0.41rem;
+    line-height: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .agregar__form__div > p {
+
+        font-size: 0.3rem;
+        line-height: 0.33rem;
+    }
+}

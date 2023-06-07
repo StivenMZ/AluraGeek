@@ -1,0 +1,9 @@
+{
+    "usuarios": [
+        {
+            "correo" : "ejemplo@alura.com",
+            "contrasenia" : "ejemplo123", 
+            "id" : 1
+        }
+    ]
+  }

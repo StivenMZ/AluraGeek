@@ -1,0 +1,42 @@
+.destacado__visual__descripcion{
+    margin-left: 1rem;
+width:  89.1%;
+height: 9.04%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 0.875rem;
+line-height: 1rem;
+
+/* Preto/branco */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+@media screen and (min-width:768px){
+    .destacado__visual__descripcion{
+        width: 91.7%;
+        height: 0.8125rem;
+        font-size: 0.6875rem;
+        line-height: 0.8125rem;
+    }
+    
+} 
+
+@media screen and (min-width:1280px){
+    .destacado__visual__descripcion{
+    font-size: 0.5rem;
+line-height: 0.45rem;
+margin-left: 4rem;
+width: 70%;
+}
+}

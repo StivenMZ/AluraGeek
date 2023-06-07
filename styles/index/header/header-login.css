@@ -1,0 +1,19 @@
+.header__login{
+    width: 41.548%;
+    order: 1;
+    position: relative;
+    right: 19%;
+}
+
+
+@media screen and (min-width:768px){
+
+    .header__login{
+      width: 24.9%;
+      height: 1.2001rem;
+      position: initial;
+    }
+    
+} 
+
+

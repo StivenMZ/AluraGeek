@@ -1,0 +1,27 @@
+.contacto__informacion__form__formulario__error-mensaje{
+    width: 100%;
+    font-family: "Raleway";
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: red;
+    position: relative;
+    word-wrap: break-word;
+    bottom: 0.5rem;
+}
+
+@media screen and (min-width:768px){
+    .contacto__informacion__form__formulario__error-mensaje{
+        bottom: 0;
+        font-size: 0.5rem;
+
+    }
+}
+
+
+@media screen and (min-width:1280px){
+    .contacto__informacion__form__formulario__error-mensaje{
+        font-size: 0.32rem;
+    }
+}

@@ -1,0 +1,13 @@
+.productos__contenido{
+    margin-top: 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (min-width:768px){
+.productos__contenido{
+margin-bottom: 1rem;
+}
+}

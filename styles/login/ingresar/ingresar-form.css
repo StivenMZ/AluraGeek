@@ -1,0 +1,44 @@
+.ingresar__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingresar__form__error-correo{
+    font-size: 0.8rem;
+    font-family: 'Raleway';
+    margin-left: 1.5rem;
+    width: 86%;
+    color: red;
+}
+
+@media screen and (min-width: 768px){
+    .ingresar__form{
+        gap: 0.5rem;
+
+    }
+    .ingresar__form__error-correo{
+        font-size: 0.5rem;
+        margin-left: 7.5rem;
+        width: 86%;
+        color: red;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .ingresar__form{
+        gap: 0.5rem;
+
+    }
+    .ingresar__form__error-correo{
+        font-size: 0.3rem;
+        width: 30%;
+        margin-left: 0rem;
+       
+    }
+
+}
