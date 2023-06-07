@@ -189,7 +189,7 @@ let widget_cloudinary = cloudinary.createUploadWidget({
 
 }, (err, result)=>{
   if(!err && result && result.event === 'success'){
-    console.log("Imagen subida con éxito: ");
+
     imagenUrl = result.info.secure_url;
     imagenNombre = result.info.original_filename;
     ejecutarCodigoDespuesDeCargarImagen();

@@ -15,7 +15,6 @@ window.addEventListener('DOMContentLoaded', async function(){
   const url = window.location.search;
   const urlParams = new URLSearchParams(url);
   const busqueda = urlParams.get('search');
-  console.log(busqueda);
   
   const urlBusqueda = `http://localhost:4000/productos?nombre_like=${busqueda}`;
   
@@ -42,8 +41,6 @@ window.addEventListener('DOMContentLoaded', async function(){
         `;
         listaProductos.appendChild(productoElemento)
       });  
-      
-        console.log(productos);
       } catch (error) {
         console.error('Error al realizar la petición:', error);
       }

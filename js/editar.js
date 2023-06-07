@@ -63,7 +63,6 @@ let widget_cloudinary = cloudinary.createUploadWidget({
 
 }, (err, result)=>{
   if(!err && result && result.event === 'success'){
-    console.log("Imagen subida con éxito: ");
     imagenUrl = result.info.secure_url;
     imagenNombre = result.info.original_filename;
     ejecutarCodigoDespuesDeCargarImagen();
@@ -101,7 +100,6 @@ const descripcionError = document.querySelector('[data-form="descripcion-error"]
 fetch(`http://localhost:4000/productos/${idProducto}`)
   .then(response => response.json())
   .then(producto => {
-    console.log(producto);
 
     imagenCampo.value = producto.imagenOriginal;
     categoriaCampo.value = producto.categoria;
@@ -189,11 +187,8 @@ nombreCampo.addEventListener("blur", function() {
 const form = document.querySelector('[data-form="form"]');
 form.addEventListener("submit", async(evento)=>{
     evento.preventDefault();
-    console.log(evento);
-
     if(validarForm){
         if(validarCamposVacios()){
-            console.log("prueba");
 
     await  fetch(`http://localhost:4000/productos/${idProducto}`)
     .then(response => response.json())

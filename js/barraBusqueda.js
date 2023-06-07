@@ -98,7 +98,6 @@ function ayudaBusqueda(pantalla) {
       }
     } else if (pantalla >= 768) {
       if (x !== "" && buscarDiv !== "" && divMayor !== "" && span !== "" && buscar !== "") {
-        console.log("probando pa");
         x.remove();
         buscarDiv.remove();
         divMayor.remove();

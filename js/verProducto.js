@@ -30,7 +30,6 @@ let categoriaGeneral ="";
         `
         categoriaGeneral = producto.categoria;
         idGeneral = producto.id;
-        console.log(categoriaGeneral);
         divPadre.appendChild(divMenor);
 
   })

@@ -41,7 +41,6 @@ const editarIcono = document.querySelectorAll('[data-producto="editar"]');
 
 editarIcono.forEach(boton =>{
   boton.addEventListener('click', async(event)=>{ 
-    console.log("prueba");
       if (event.target.dataset.producto === "editar") { 
     const productoId = boton.dataset.id;
     
