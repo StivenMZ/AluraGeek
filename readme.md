@@ -27,6 +27,6 @@ Una vez logueado se pueden ver todos los productos, agregar nuevos y eliminarlos
 Para subir imagenes, se imnplementó la API de cloudinary. 
 
 
-Muchas gracias, de seguro pueden encontrar varias oportunidades de mejora en el proyecto, pero fue de mis primeros proyectos, y el primero usando CRUD. 
+Muchas gracias, de seguro pueden encontrar varias oportunidades de mejora en el proyecto, pero fue de mis primeros proyectos, y el primero usando  CRUD.
  
 
