@@ -1,4 +1,5 @@
 const btnLogin = document.querySelector('[data-login="entrar"]');
+
 function ayudaBusqueda(pantalla) {
   const busquedaIcono = document.querySelector(".header__navegacion__busqueda_lupa");
   const barraBusqueda = document.querySelector(".header__navegacion__busqueda__input");
@@ -55,7 +56,7 @@ function ayudaBusqueda(pantalla) {
         if (barraBusqueda.value.length < 1) {
           return false;
         } else {
-          window.location.href = `./${pantalla}.html?search=${search}`;
+          window.location.href = `./${pantalla}.html?search=${search}` ||  `./docs/${pantalla}.html?search=${search}`;
         }
       })
     }
@@ -92,7 +93,7 @@ function ayudaBusqueda(pantalla) {
           if (barraBusqueda.value.length < 1) {
             return false;
           } else {
-            window.location.href = `./${pantalla}.html?search=${search}`;
+            window.location.href = `./${pantalla}.html?search=${search}` || `./docs/${pantalla}.html?search=${search}`;
           }
         })
       }
@@ -122,7 +123,7 @@ function ayudaBusqueda(pantalla) {
     if (barraBusqueda.value.length < 1) {
       return false;
     } else {
-      window.location.href = `./${pantalla}.html?search=${search}`;
+      window.location.href = `./${pantalla}.html?search=${search}` ||  `./docs/${pantalla}.html?search=${search}`;
     }
   }
   barraBusqueda.addEventListener('keydown', (e) => {
