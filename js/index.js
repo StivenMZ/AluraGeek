@@ -1,6 +1,6 @@
-import { elementosContacto } from "./contacto.js";
+import { elementosContacto } from "./js/contacto.js";
 
-import { validarFormContacto } from "./contacto.js";
+import { validarFormContacto } from "./js/contacto.js";
 
 /*BUSQUEDA*/ 
 const btnLogin = document.querySelector('[data-login="entrar"]');
