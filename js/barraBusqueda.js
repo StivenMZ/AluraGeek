@@ -35,7 +35,8 @@ function ayudaBusqueda(pantalla) {
       buscar.classList.add("buscar__icono");
       buscarDiv.appendChild(buscar)
       busquedaIcono.addEventListener("click", () => {
-        busquedaIcono.style.display = "none";
+        busquedaIcono.style.display = "flex";
+        busquedaIcono.style.left = "-9.1%";
         barraBusqueda.style.display = "flex";
         barraBusqueda.parentNode.appendChild(divMayor);
         divMayor.appendChild(x);
@@ -43,13 +44,14 @@ function ayudaBusqueda(pantalla) {
         btnLogin.style.display = "none"
         x.parentNode.appendChild(buscarDiv);
       })
+
       x.addEventListener("click", () => {
         barraBusqueda.style.display = "none";
         buscarDiv.remove()
         x.remove()
         btnLogin.style.display = "flex"
-        busquedaIcono.style.display = "inline";
-        busquedaIcono.style.left = "7rem";
+        busquedaIcono.style.display = "flex";
+        busquedaIcono.style.left = "50%";
       })
       buscar.addEventListener("click", () => {
         const search = barraBusqueda.value;

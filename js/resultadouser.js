@@ -59,6 +59,6 @@ validarFormContacto();
      
   const botonparaVolver = document.querySelector('[data-productos="boton-volver"]');
   botonparaVolver.addEventListener("click", ()=>{
-      window.location.href ="./index.html";
+      window.location.href ="../index.html";
   })  
   

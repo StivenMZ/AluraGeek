@@ -75,7 +75,7 @@ contrasenia.addEventListener("blur", validarContrasenia);
 function setCookie(name, value, options = {}) {
     options = {
         path: '/',
-        session: true, // establecer session en true para que la cookie se elimine al cerrar el navegador
+        session: true,
         ...options
     };
 
