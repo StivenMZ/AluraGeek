@@ -29,3 +29,5 @@ Para subir imagenes, se imnplementó la API de cloudinary.
 
 Muchas gracias, de seguro pueden encontrar varias oportunidades de mejora en el proyecto, pero fue de mis primeros proyectos, y el primero usando  CRUD. Este proyecto se puede usar con la extensión "Live Server" de visual studio code. 
 
+Tambien puedes usar este proyecto desde Githgub pages, con el siguiente enlace https://stivenmz.github.io/AluraGeek/  y iniciar json server como se indica mas arriba, para esto debe stener descargados los archivos json, si haces esto, te funcionará la pagina desde web
+

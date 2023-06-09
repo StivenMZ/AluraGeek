@@ -40,7 +40,7 @@
       "imagen": "https://res.cloudinary.com/dyxkzbd1n/image/upload/v1682975645/c0qzo8lurf28xgwfgumq.jpg",
       "categoria": "Star Wars",
       "nombre": "Baby Yoga ",
-      "precio": 330000,
+      "precio": "330000",
       "descripcion": "Figura de acción de Baby Yoga",
       "imagenOriginal": "baby yoga figura",
       "id": 7
@@ -89,15 +89,6 @@
       "descripcion": "Nave de Starwars con Dark vader figuras",
       "imagenOriginal": "Nave y dark vader",
       "id": 12
-    },
-    {
-      "imagen": "https://res.cloudinary.com/dyxkzbd1n/image/upload/v1682977381/limgrpqkvbhq1b4xtzl8.jpg",
-      "categoria": "Star Wars",
-      "nombre": "Tostadora Starwars",
-      "precio": 140000,
-      "descripcion": "Tostadora de Starwars, para que el lado oscuro te ayude a desayunar",
-      "imagenOriginal": "tostadora darkvader",
-      "id": 13
     }
   ]
 }
