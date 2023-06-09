@@ -3,10 +3,10 @@ import { elementosContacto, validarFormContacto } from "./contacto.js";
 
 /*BUSQUEDA*/ 
 const btnLogin = document.querySelector('[data-login="entrar"]');
+const busquedaIcono = document.querySelector(".header__navegacion__busqueda_lupa");
+const barraBusqueda = document.querySelector(".header__navegacion__busqueda__input");
 
 function ayudaBusqueda(pantalla) {
-  const busquedaIcono = document.querySelector(".header__navegacion__busqueda_lupa");
-  const barraBusqueda = document.querySelector(".header__navegacion__busqueda__input");
   let divMayor = "";
   let buscarDiv = "";
   let x = "";
