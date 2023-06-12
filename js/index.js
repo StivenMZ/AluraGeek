@@ -1,4 +1,4 @@
-import { elementosContacto, validarFormContacto } from "./contacto.js";
+import { validarFormContacto } from "./contacto.js";
 
 
 /*BUSQUEDA*/ 
@@ -145,8 +145,6 @@ function ayudaBusqueda(pantalla) {
 /**/
 
 
-
-elementosContacto.section.innerHTML = elementosContacto.contenido;
 
 btnLogin.addEventListener("click", ()=>{
   window.location.href = "./docs/login.html";
