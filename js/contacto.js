@@ -17,7 +17,7 @@ const contenido = `
 <div class="contacto__informacion">
 <div class="contacto__informacion__div">
 <div class="contacto__informacion__logo">
-<img src="${rutaImg('./assets/Logo.png','../assets/Logo.png')}" alt="Logo Alurageek">
+<img src="../assets/Logo.png" alt="Logo Alurageek">
 </div>
 <div class="contacto__informacion__opciones">
     <ul class="contacto__informacion__opciones__lista">
