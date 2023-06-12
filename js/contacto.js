@@ -1,9 +1,24 @@
 const section = document.querySelector(".contacto");
 
+const rutaImg = (ruta1, ruta2)=>{
+  var img = new Image();
+  img.src = ruta1;
+
+  if(img.complete && img.naturalWidth !== 0){
+    return ruta1
+  }else{
+    return ruta2
+  }
+}
+
+/* ../assets/Logo.png  ./assets/Logo.png*/
+
 const contenido = `
 <div class="contacto__informacion">
 <div class="contacto__informacion__div">
-<div class="contacto__informacion__logo"><img src="../assets/Logo (1).png" alt=""></div>
+<div class="contacto__informacion__logo">
+<img src="${rutaImg('./assets/Logo.png','../assets/Logo.png')}" alt="Logo Alurageek">
+</div>
 <div class="contacto__informacion__opciones">
     <ul class="contacto__informacion__opciones__lista">
         <li><a href="">Quienes somos</a></li>
